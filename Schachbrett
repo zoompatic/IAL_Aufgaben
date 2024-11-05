@@ -1,0 +1,14 @@
+package advance;
+
+public class Schleife_Verschachtelt_Aufgabe2 {
+
+	public static void main(String[] args) {
+		  for (int zahl = 8; zahl >= 1; zahl--) {
+	            // Innere Schleife für die Buchstaben A bis H
+	            for (char buchstabe = 'A'; buchstabe <= 'H'; buchstabe++) {
+	                System.out.print(buchstabe + "" + zahl + " ");
+	            }
+	            System.out.println(); // Zeilenumbruch nach jeder Reihe
+	        }
+	}
+}
