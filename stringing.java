@@ -8,35 +8,35 @@ public class stringing {
 
 
 		//erstellen eines "String" mit gewünschter Zeichenfolge
-		String kontraBass = "Drei Chinesen mit dem Kontrabass "  
+		String kontraBass = 	"Drei Chinesen mit dem Kontrabass "  
 
-							+ "saßen auf der Straße und erzählten sich was."
+					+ "saßen auf der Straße und erzählten sich was."
 
-							+ "Da kam die Polizei, fragt: Was ist denn das? "
+					+ "Da kam die Polizei, fragt: Was ist denn das? "
 
-							+ "Drei Chinesen mit dem Kontrabass ";
+					+ "Drei Chinesen mit dem Kontrabass ";
 
 		char suche = 'e'; //das gesuchte zeichen initialisieren und deklarieren
 		char suche1 = 'c';
-		int zähler = 0; // der Zähler für die Anzahl des gesuchten Zeichens 
+		int zaehler = 0; // der Zähler für die Anzahl des gesuchten Zeichens 
 
 		//itterrieren des Stings
 		for (int x = 0; x < kontraBass.length(); x++) {
 
 			//während itterration suche nach Zeichen und inkrement von Zähler
 			if(kontraBass.charAt(x) == suche || kontraBass.charAt(x) == suche1){
-				zähler++;
+				zaehler++;
 
 			}
 
 		}
-		System.out.println("Die gesuchten Zeichen kommen " + zähler + " mal vor." );
+		System.out.println("Die gesuchten Zeichen kommen " + zaehler + " mal vor." );
 
 
-		String fluß = "MISSISSIPPI";
+		String fluss = "MISSISSIPPI";
 		//String low = fluß.toLowerCase();
 
-		System.out.println(fluß.toLowerCase());
+		System.out.println(fluss.toLowerCase());
 
 		String world = "Hello World!";
 
