@@ -16,7 +16,9 @@ public class Notenspiegel {
 			System.out.print(noten[element] + " ");
 		}
 		System.out.print("\n\n");
- 
+		
+ 		// QUELLE FÜR MEINE LÖSUNGEN IST CHATGPT!!!
+		
 		// Geben Sie die Anzahl jeder Note aus
 		int[] notenAnzahl = new int[6];
 		for (int note:noten) {
